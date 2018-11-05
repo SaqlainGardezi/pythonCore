@@ -32,6 +32,25 @@ print(boolT, " has type ", type(boolT))
 print(boolF, ' has type ', type(boolF))
 
 print(5<4)
-a=43
-x=43
-print(a<=x)
+m=43
+n=43
+print(m<=n)
+
+#float to int
+i=int(x)
+print x, " is converted to ", i
+
+#string to float
+f=float("22.43")
+print(f, " has type ", type (f))
+
+#binary, hexadecimal and octal
+deci=23
+# it gives error But it should work properly 
+''' print(bin(deci)) '''
+""" print(bina, " has type ", type(bina)) """
+hexa=hex(deci)
+octal=oct(deci)
+print(hexa, " has type ",type(hexa))
+print(octal," has type ", type(octal))
+
